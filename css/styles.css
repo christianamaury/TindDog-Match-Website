@@ -10,8 +10,13 @@ h1{
 
 }
 
-
 #title{
 
   background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 0.5% 0.5% 0.5% 0.5%;
+
+
 }
