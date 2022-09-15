@@ -104,11 +104,18 @@ margin-bottom: 1.2rem;
 
 #testimonials{
 
-  padding: 7% 16%;
   text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
+
+.carousel-item{
+
+  /* This only for the arrow button. It was before in the Testimonials class */
+  padding: 7% 16%;
+
+}
+
 
 .testimonials-image{
 width: 10%;
