@@ -124,7 +124,6 @@ margin-bottom: 1.2rem;
 
 }
 
-
 .testimonials-image{
 width: 10%;
 border-radius: 100%;
@@ -151,13 +150,48 @@ padding-bottom: 2.5%;
   text-align: center;
 }
 
+/* This class is for the footer */
+.cta-heading{
+  font-family: "Montserrat-Black";
+  font-size: 1.5rem;
+  line-height: 3.5;
+}
+
+/* Footer section */
+#footer{
+  padding: 2% 5%;
+  text-align: center;
+
+}
+
 .pricing-column {
 
   padding: 3% 2%;
 }
 
+.social-icon{
+
+margin: 20px 10px;
+
+}
+
+/*CTA Section*/
+#cta{
+
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+
 /* Rotation of the title image back to zero if the following conditions are true.  */
 @media (max-width: 1028px){
+
+  #title{
+
+    text-align: center;
+  }
 
   .title-image{
     position: static;
